@@ -1,0 +1,21 @@
+# Project documentation configuration
+project:
+  name: "My Project"
+  version: "1.0.0"
+  description: "This is an example project."
+
+author:
+  name: "Fabiano"
+  email: "fabiano@example.com"
+
+dependencies:
+  - name: "dependency1"
+    version: "2.3.4"
+  - name: "dependency2"
+    version: "1.2.3"
+
+settings:
+  debug: true
+  logging:
+    level: "info"
+    file: "/var/log/my_project.log"
